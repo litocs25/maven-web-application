@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.84.49.142:8081/repository/paypal-releases/</url>
+	      <url>172.31.93.114:8081/repository/mavenjune12-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.84.49.142:8081/repository/paypal-snapshots/</url>
+	      <url>http://172.31.93.114:8081/repository/mavenjune12-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
