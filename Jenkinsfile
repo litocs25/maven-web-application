@@ -1,13 +1,13 @@
 pipeline{
   agent any 
   tools {
-    maven "maven3.6.0"
+    maven "maven3.9.2"
   }  
   stages {
     stage('1GetCode'){
       steps{
         sh "echo 'cloning the latest application version' "
-        git branch: 'feature', credentialsId: 'gitHubCredentials', url: 'https://github.com/LandmakTechnology/maven-web-application'
+        git branch: 'feature', credentialsId: 'gitHubCredentials', url: 'https://github.com/litocs25/maven-web-application'
       }
     }
     stage('3Test+Build'){
